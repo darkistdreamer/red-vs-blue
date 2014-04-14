@@ -1,0 +1,19 @@
+<html>
+<head>
+</head>
+<body>
+<h1>Red vs. Blue</h1>
+<p>Gameplay is simple: Player 1 clicks as many tiles as they want, while Player 2 right clicks as many tiles as they want. Clicking and right clicking will bring tiles to life in each team's color (and toggle them off, if a player changes their mind).<br><br>
+    When both players feel they've got an interesting assortment of tiles, someone can click "start" to let the tiles begin growing and dying according to the rules of Conway's Game of Life.<br><br>
+    The player with the most of their color visible when the tiles stop moving wins.<br></p>
+<div id="stopBtn" style="background-color:#f00; cursor: pointer; padding:5px; margin:5px; border:1px solid #000; width: auto; display:inline-block;">Stop</div>
+
+<div id="startBtn" style="background-color:#0f0; cursor: pointer; padding:5px; margin:5px; border:1px solid #000; width: auto; display:inline-block;">Start</div>
+    
+<div id="game"><canvas id="game-canvas" width="350" height="350"></canvas></div>
+
+<script type="application/javascript" language="javascript" src="js/lib/jquery-2.0.2.min.js"></script>
+<script type="application/javascript" language="javascript" src="js/cell.js"></script>
+<script type="application/javascript" language="javascript" src="js/game.js"></script>
+</body>
+</html>
